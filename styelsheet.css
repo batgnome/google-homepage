@@ -2,23 +2,73 @@ header {
     padding-top: 16px;
     padding-bottom: 80px;
 }
-
-div{
+div {
+   
+    
+}
+.search {
+    color: gray;
+    position: relative;
+    margin: auto;
     text-align: center;
+    width: 50%;
+}
+.search.border:hover {
+    -moz-box-shadow: 0 0 2px 1px #999;
+    -webkit-box-shadow: 0 0 2px 1px #999;  
+}
+input {
+    outline-style: none;
+    flex: 100%; 
+    margin-right: 30%;
+    position: relative;
+    bottom: 50%; 
+    height: 50%; 
+    background-color: transparent; 
+    border: none; 
+    text-align: left;
 }
 
+.top{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+}
+.nav {
+    color: black;
+}
+.top .right {
+    float: right;
+}
+.top .left {
+    float: left;
+}
 
-div .border {
+ul {
+    float: left;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+li {
+    display: inline;
+}
+ .border {
+     flex: auto;
     border-radius: 24px;
-    padding-left: 30%;
     width: 400px;
     height: 44px;
-}
-input .border {
-    
     border: 1px solid;
-    
     background-color: rgb(255, 255, 255);
+}
+ .border:hover{
+    box-shadow: 20ch;
+
 }
 
 a {
