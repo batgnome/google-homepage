@@ -1,17 +1,33 @@
 header {
-    padding-top: 16px;
-    padding-bottom: 80px;
-}
-div {
-   
+    padding-top: 2px;
+    padding-bottom: 10px;
+    margin-left: -10px;
     
 }
+
 .search {
     color: gray;
     position: relative;
     margin: auto;
     text-align: center;
     width: 50%;
+}
+button {
+    border-style: none;
+}
+button:hover {
+    -moz-box-shadow: 0 0 2px 1px #999;
+    -webkit-box-shadow: 0 0 2px 1px #999;  
+}
+
+.under {
+    color: rgba(0, 0, 0, 0.699);
+    background-color: rgb(243, 243, 243);
+    padding: 10px 10px 10px 10px;
+}
+.search.border {
+    margin-top: 30px;
+    padding: 0% 20% 0% 10%;
 }
 .search.border:hover {
     -moz-box-shadow: 0 0 2px 1px #999;
@@ -36,15 +52,19 @@ input {
     height: 30px;
     line-height: 30px;
     padding: 5px 15px;
-    margin-bottom: 20px;
+    
 }
 .nav {
     color: black;
+    font-size: small;
 }
-.top .right {
+.right {
     float: right;
+    margin-left: 10px;
+    padding-left: 0;
+    height: 50%;
 }
-.top .left {
+.left {
     float: left;
 }
 
@@ -57,6 +77,7 @@ ul {
 
 li {
     display: inline;
+    padding: 5px;
 }
  .border {
      flex: auto;
